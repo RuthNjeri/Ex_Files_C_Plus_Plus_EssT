@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Exercise Files\Chap02\pointers.cpp">
+    <ClCompile Include="..\Exercise Files\Chap02\array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

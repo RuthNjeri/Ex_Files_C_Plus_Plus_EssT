@@ -2,7 +2,7 @@
 // updated 2020-06-24
 #include <cstdio>
 
-struct S {
+struct S { // Aggregated variable, store a number of disparate(different kinds) of variables.
     int i;
     double d;
     const char * s;
@@ -11,6 +11,7 @@ struct S {
 int main() {
     S s1 = { 3, 47.9, "string one" };
 
+    s1.d = 73;
     printf("s1: %d, %f, %s\n", s1.i, s1.d, s1.s);
 
     return 0;

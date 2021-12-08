@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Exercise Files\Chap02\range-for.cpp">
+    <ClCompile Include="..\Exercise Files\Chap02\struct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

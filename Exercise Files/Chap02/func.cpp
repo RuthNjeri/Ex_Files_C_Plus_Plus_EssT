@@ -2,15 +2,17 @@
 // updated 2020-06-24
 #include <cstdio>
 
-void func()
+int func(int i, const char * s)
 {
-    puts("this is func()");
+    printf("this is func(%i, %s)\n", i, s);
+    return i * 2;
 }
 
 int main()
 {
     puts("this is main()");
-    func();
+    int x = func(8, "string");
+    printf("x is %d\n", x);
     return 0;
 }
 

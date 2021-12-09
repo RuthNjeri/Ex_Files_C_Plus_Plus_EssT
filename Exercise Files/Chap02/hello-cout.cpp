@@ -4,6 +4,6 @@
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Hello, World! " << 2 * 7 << " another string" << std::endl;// The namespace for stl identifiers are std
     return 0;
 }

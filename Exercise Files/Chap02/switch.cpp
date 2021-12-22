@@ -10,7 +10,7 @@ int main() {
     
     int x = 3;
     
-    switch(x) {
+    switch(x) { // Without the break statements, multiple cases will be outputed. The cases require constants.
         case iONE:
             puts("one");
             break;

@@ -10,9 +10,10 @@ struct Employee {
 
 int main() {
     Employee joe = { 42, "Joe", "Boss" };
+    Employee * j = &joe;
     
     printf("%s is the %s and has id %d\n",
-           joe.name, joe.role, joe.id);
+           j->name, j->role, j->id); // if using pointer, if not, use dot notation joe.name, joe.role, joe.id
     
     return 0;
 }

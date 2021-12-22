@@ -3,7 +3,7 @@
 #include <cstdio>
 
 #ifndef NULL
-#define NULL (0LL) /* common C++ definition */
+#define NULL (0) /* common C++ definition */
 #endif
 
 void f( int i ) {
@@ -15,6 +15,6 @@ void f( const char * s ) {
 }
 
 int main() {
-    f(NULL);
+    f(nullptr);
     return 0;
 }

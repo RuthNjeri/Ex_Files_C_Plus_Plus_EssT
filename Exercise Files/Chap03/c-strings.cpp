@@ -3,7 +3,8 @@
 #include <cstdio>
 
 int main() {
-    char cstring[] = "String";
+    const char * cstring = "String" "Another String";
+    
     
     puts(cstring);
     

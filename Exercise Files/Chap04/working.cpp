@@ -22,4 +22,28 @@ int main()
     } else {
         printf("false");
     }
+    
+    // Boolean is 8 bits
+    
+    bool a = true;
+    bool b = false;
+    
+    a = 7; // any non zero value is true, since the type of a is a bool
+    
+    printf("Logical value of a is %d\n", a);
+    printf("Logical value of b is %d\n", b);
+    
+    // A bool is 8 bits
+
+    printf("size is %zd\n", sizeof(a) * 8);
+    
+    if(a && b){ // logical and, || or, ! not, perform short curcuiting
+        puts("true");
+    }else{
+        puts("false");
+    }
+    
+    // Short curcuiting, a || b, b is never evaluated because a is false, b && a, a is never evaluated because b is false.
+    // There is no bool xor operator(evaluate true if only one is true)
+    // Similar to b != a only true if one of them is true and the other false, use ! before non logical variables, converts them to bools. 
 }

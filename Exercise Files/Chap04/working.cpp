@@ -13,4 +13,7 @@ int main()
     
     printf("X is %d\n", x);
     printf("Y is %d\n", y);
+    printf("Y is %d\n", ++y);
+    printf("Y is %d\n", ++y); // Increments the value and returns the new value
+    printf("Y is %d\n", y++); // Post increment, return the value first, then increment it, operates on it after it returns a value.
 }

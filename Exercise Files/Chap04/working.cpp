@@ -16,4 +16,10 @@ int main()
     printf("Y is %d\n", ++y);
     printf("Y is %d\n", ++y); // Increments the value and returns the new value
     printf("Y is %d\n", y++); // Post increment, return the value first, then increment it, operates on it after it returns a value.
+    
+    if(x != y){ // returns a logical value, 0 is false and anything not a 0 is true
+        printf("true %d\n", x != y);
+    } else {
+        printf("false");
+    }
 }

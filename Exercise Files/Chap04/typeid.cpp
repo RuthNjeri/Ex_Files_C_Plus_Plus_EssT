@@ -13,7 +13,7 @@ B b2;
 
 int main() {
     if(typeid(a1) == typeid(A)) {
-        puts("same");
+        printf("same %s\n", typeid(a1).name());
     } else {
         puts("different");
     }

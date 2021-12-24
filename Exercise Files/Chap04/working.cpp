@@ -50,4 +50,12 @@ int main()
     // Ternary operator, don't need the complexity of if else
     const char * s = x > y ? "ÿes" : "no";
     puts(s);
+    
+    //Type cast
+    
+    int z = 8;
+    long long int w = 8;
+    w = z; // implicit conversion is possible because precision is not lost
+    z = int(w); // Explicit, tells the compiler that conversion is intended.
+    
 }

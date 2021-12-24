@@ -4,6 +4,9 @@
 
 int main()
 {
-    puts("Hello, World!");
-    return 0;
+    int x = 24; // Assignment operator = makes a copy of the right side to the left side
+    int y = 43;
+    
+    printf("X is %d\n", x);
+    printf("Y is %d\n", y);
 }

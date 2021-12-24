@@ -45,5 +45,9 @@ int main()
     
     // Short curcuiting, a || b, b is never evaluated because a is false, b && a, a is never evaluated because b is false.
     // There is no bool xor operator(evaluate true if only one is true)
-    // Similar to b != a only true if one of them is true and the other false, use ! before non logical variables, converts them to bools. 
+    // Similar to b != a only true if one of them is true and the other false, use ! before non logical variables, converts them to bools.
+    
+    // Ternary operator, don't need the complexity of if else
+    const char * s = x > y ? "ÿes" : "no";
+    puts(s);
 }

@@ -1,11 +1,9 @@
 // func.cpp by Bill Weinman <http://bw.org/>
 // updated 2020-06-24
 #include <cstdio>
+#include "func.h"
 
-void func()
-{
-    puts("this is func()");
-}
+
 
 int main()
 {
@@ -14,3 +12,7 @@ int main()
     return 0;
 }
 
+void func()
+{
+    puts("this is func()");
+}

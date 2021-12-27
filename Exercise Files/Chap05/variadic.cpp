@@ -5,9 +5,9 @@
 
 // first argument -- int count of remaining args
 // remaining args -- doubles for average
-double average(const int count, ...)
+double average(const int count, ...) // The three dots make it a variadic arg
 {
-    va_list ap;
+    va_list ap;// type of variadic handle
     int i;
     double total = 0.0;
     

@@ -8,13 +8,19 @@
 int main()
 {
     puts("this is main()");
-    func(42);
+    func();
+    func();
+    func();
+    func();
+    func();
     return 0;
 }
 
-void func(int i)
+void func()
 {
-    printf("the value is %d\n", i);
+    static int i = 5; // Default is automatic storage, which is stored in a stack and is temporary. Static stores the value in the main memory pool not the stack. The value is carried forward each time.
+    // Automatic storage is not recommended for larger objects.
+    printf("i is %d\n", i++);
 }
 
 // C++ by default passes by value when using parameters in a func

@@ -8,11 +8,17 @@
 int main()
 {
     puts("this is main()");
-    func();
+    func(42);
     return 0;
 }
 
-void func()
+void func(int i)
 {
-    puts("this is func()");
+    printf("the value is %d\n", i);
 }
+
+// C++ by default passes by value when using parameters in a func
+// The values are usually stored in a stack.
+// Pass by reference using a reference operator(const qualified) or pointer for objects like strings
+// This is a preferred standard than storing it inside a stack
+

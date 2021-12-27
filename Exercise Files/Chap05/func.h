@@ -3,6 +3,6 @@
 #ifndef FUNC_H_
 #define FUNC_H_
 
-void func();
+void func(int i);
 
 #endif // FUNC_H_

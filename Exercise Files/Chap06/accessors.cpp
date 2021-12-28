@@ -21,3 +21,6 @@ int main() {
     printf("ia is %d, ib is %d, ic is %d\n", a.geta(), a.getb(), a.getc());
     return 0;
 }
+
+
+// Best practise to use struct when you only have data members, and a class if you have functions
